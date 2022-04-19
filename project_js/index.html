@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz JS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+     <h1>Quizz !</h1>
+
+     <div class="container-global">
+        <form class="form-quizz">
+            <div class="question-block">
+                <h4>Qui est le premier programmeur au monde ? </h4>
+            
+                <div>
+                    <input type="radio" id="epitech" name="q1" value="a"checked>
+                    <label for="epitech">George Boole</label>
+                </div>
+                <div>
+                    <input type="radio" id="ecole42" name="q1" value="b">
+                    <label for="ecole42">Alan Turing</label>
+                </div>
+                <div>
+                    <input type="radio" id="esgi" name="q1" value="c">
+                    <label for="esgi">Ada Lovelace</label>
+                </div>
+            </div>
+    
+            <div class="question-block">
+                <h4>Qui à inventé l’algèbre binaire ?</h4>
+                <div>
+                    <input type="radio" id="date1" name="q2" value="a" checked>
+                    <label for="date1">George Boole</label>
+                </div>
+                <div>
+                    <input type="radio" id="date2" name="q2" value="b">
+                    <label for="date2">Alan Turing</label>
+                </div>
+                <div>
+                    <input type="radio" id="date3" name="q2" value="c">
+                    <label for="date3">Margaret Hamilton</label>
+                </div>
+            </div>
+        
+                <div class="question-block">
+                    <h4>Qui à créer la technologie Linux ?</h4>
+                    <div>
+                        <input type="radio" id="date4" name="q3" value="a" checked>
+                        <label for="date4">Dennis Ritchie</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="date5" name="q3" value="b">
+                        <label for="date5">Linus Torvalds</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="date6" name="q3" value="c">
+                        <label for="date6">Richard Stallman</label>
+                    </div>
+                </div>
+        
+        
+                <div class="question-block">
+                    <h4>Qui a créer le langage C  ?</h4>
+        
+                    <div>
+                        <input type="radio" id="Ljubljana" name="q4" value="a" checked>
+                        <label for="Ljubljana">Dennis Ritchie</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Belgrade" name="q4" value="b">
+                        <label for="Belgrade">James Gosling</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Bratislava" name="q4" value="c">
+                        <label for="Bratislava">Bjarne Stroustrup</label>
+                    </div>
+                </div>
+        
+        
+                <div class="question-block">
+                    <h4>Qui à inventé le World Wide Web ?</h4>
+                    <div>
+                        <input type="radio" id="m1" name="q5" value="a"
+                            checked>
+                        <label for="m1">Bill Gates</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="m2" name="q5" value="b">
+                        <label for="m2">Steve Jobs</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="m3" name="q5" value="c">
+                        <label for="m3">Tim Berners Lee</label>
+                    </div>
+                </div>
+    
+            <button type="submit">Validez vos choix !</button>
+        </form>
+
+        <div class="resultats">
+            <h2>Cliquez sur valider pour voir les résultats.</h2>
+            <p class="aide"></p>
+            <p class="note"></p>
+        </div>
+     </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
